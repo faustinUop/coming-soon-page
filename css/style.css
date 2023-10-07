@@ -72,3 +72,12 @@ button:hover {
     }
 }
 
+/* background-pattern */
+.background-pattern {
+    width: 100%; /* or any specific dimensions */
+    height: auto;
+    background: url('/image/bg-pattern-desktop.svg') no-repeat center center;
+    background-size: cover; /* adjust as needed */
+}
+
+
