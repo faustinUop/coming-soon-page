@@ -1,15 +1,15 @@
 /* Reset CSS */
 body, html {
     margin: 0;
-    padding: 0;
+    height: 100%;
 }
 
-/* Add the Josefin Sans font to the body */
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    color: hsl(0, 6%, 24%); /* Dark Grayish Red */
+    background: url('/image/bg-pattern-desktop.svg') no-repeat center center fixed;
+    background-size: cover;
+    /* Other styles */
 }
+
 
 /* Style the container */
 .container {
