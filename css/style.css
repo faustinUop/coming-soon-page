@@ -11,15 +11,15 @@ body {
 }
 
 /* Style the h1 tag */
-h1.coming-soon {
-    color: black;
-    font-size: 72px;
-}
+
 h1.we-are {
     color: pink;
     font-size: 72px;
 }
-
+h1.coming-soon {
+    color: black;
+    font-size: 72px;
+}
 
 /* Style the paragraph */
 p {
