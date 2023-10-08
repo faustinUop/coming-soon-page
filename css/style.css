@@ -8,6 +8,15 @@ body {
     background: url('/image/bg-pattern-desktop.svg') no-repeat center center fixed;
     background-size: cover;
     /* Other styles */
+} 
+/* Style the container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will cover the full view height of the browser window */
+    text-align: center;
 }
 
 /* Style the h1 tag */
@@ -21,15 +30,7 @@ body {
     color: pink;
     font-size: 72pt;
 }
-/* Style the container*/
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This will cover the full view height of the browser window */
-    text-align: center;
-}
+
 
 
 /* Style the paragraph */
